@@ -1,11 +1,7 @@
-.fondo{
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    min-width: 105%;
-    min-height: 100%;
-    transform: translateX(calc((100% - 100vw) / 2));
-    z-index: -1;
+body{
+    background: url(/img/Francia_Paris_500px_85496783_Colm\ Keating_500px.jpg) center no-repeat fixed;
+    background-size: cover;
+
 }
 .cabecera{
     text-align: center;
@@ -19,7 +15,7 @@
 #comida1{
     width: 650px;
     animation: cambiar 10s ease-in-out infinite;
-    background: linear-gradient(45deg, #ae1d1da7, #e7e9ed, #99acc5,#929292);
+    background: linear-gradient(45deg, #ae1d1da7, #3f79ee, #99acc5,#929292);
     background-size: 400% 400%;
     height: 500px;
     margin-left: 150px;
@@ -31,7 +27,7 @@
 #comida2{
   width: 650px;
   animation: cambiar 10s ease-in-out infinite;
-  background: linear-gradient(45deg, #ae1d1da7, #2b529f, #99acc5,#929292);
+  background: linear-gradient(45deg, #ae1d1da7, #e1e2e5, #99acc5,#929292);
   background-size: 400% 400%;
   height: 500px;
   margin-left: 550px;
